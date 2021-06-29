@@ -5,6 +5,7 @@ Simple functions to read a dicom using Numpy, PIL and SimpleITK
 
 ## Prerequisites
 
+
 It is recommended the use of Anaconda.
 If you are using Anaconda, you can use the next commands:
 
@@ -31,4 +32,14 @@ python dcmReader_simpleITK.py
 
 ```
 
+## To execute pydicom utils for reading a single Dicom
+```
+python pydicom_utils.py
 
+```
+
+## To execute pydicom utils for reading multiple Dicom files and for converting to JPG images
+```
+python pydicom_utils_multiple_files.py
+
+```
